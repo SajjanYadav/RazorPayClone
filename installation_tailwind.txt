@@ -1,0 +1,14 @@
+npm install -D tailwindcss postcss autoprefixer vite
+
+npx tailwindcss init -p
+
+Add * in content
+
+Add scripts in package.json
+
+create main.css and add these to it or add it to global css:
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
